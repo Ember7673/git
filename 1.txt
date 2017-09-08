@@ -1,1 +1,11 @@
-却无法放松房贷首付
+git 源代码控制版本  主要用于更换版本，相当于仓库
+
+git init 初始化仓库
+git add ./1.txt  把文件放在仓库的大门口
+git add ./   把所有文件放在仓库门口
+git commit -m "这是对这次添加的东西的说明"
+git status  查看当前代码有没有放到仓库中去
+git log  查看当前历史提交的日志
+git log --oneling　可以查看版本序号
+git reset ---hard [版本号]  通过版本号返回前面的版本
+git reflog　可以看到每一次切换版本的记录
